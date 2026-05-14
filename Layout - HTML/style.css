@@ -3,19 +3,26 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e4e4e4;
+    background-color: #e0dfdf;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 header{
-    background-color: darkblue;
+    background-color: #052231;
     color: white;
+    padding-bottom: 5px;
+}
+
+#section-header {
+    text-align: center;
+    font-size: 18px;
 }
 
  nav {
     background-color: #c4c2c2;
  }
  
- nav ul, li a{
+ nav ul, li a {
     font-size: 17px;
     font-weight: bold;
     list-style-type: none;
@@ -29,7 +36,7 @@ header{
 
 
 footer {
-    background-color: darkblue;
+    background-color: #052231;
     color: white;
     padding: 10px;
     display: flex;
@@ -51,7 +58,15 @@ main{
 
 /*div pequena*/
 section {
+    justify-content: flex-start;
+} 
 
+.post {
+    background-color: #052231;
+    color: #ffffff;
+    margin-right: 500px;
+    margin-left: 15px;
+    border-radius: 10px;
 }
 
 /*div maior*/
