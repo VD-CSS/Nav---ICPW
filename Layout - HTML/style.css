@@ -9,22 +9,20 @@ body{
 header{
     background-color: darkblue;
     color: white;
-    padding: 13px;
 }
 
  nav {
     background-color: #c4c2c2;
  }
  
- nav ul, li {
+ nav ul, li a{
     font-size: 17px;
     font-weight: bold;
     list-style-type: none;
     text-decoration-line: none;
     display: flex;
     gap: 200px;
-    font-size: 20px;
-    padding: 13px;
+    padding: 8px;
     justify-content: center;
     
  }
@@ -55,6 +53,7 @@ main{
 section {
 
 }
+
 /*div maior*/
 
 article {
