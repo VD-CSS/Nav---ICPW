@@ -64,21 +64,83 @@ section {
 .post {
     background-color: #052231;
     color: #ffffff;
-    margin-right: 500px;
-    margin-left: 15px;
     border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
-/*div maior*/
 
+/*div maior*/
 article {
 
 }
 
 /*barra lateral lol*/
-aside {
-
+/* Container principal para main + aside lado a lado */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 30px;
 }
+
+/*Alterações feitas pelo DeepSeek para configurar a side bar (precisa de revisão),
+aí precisa alterar depois o padding dos cards das matérias que você fez, para ter o espaçamento interno*/
+/* Main ocupa o espaço restante */
+main {
+    flex: 3;
+}
+
+/* Aside como sidebar lateral direita */
+aside {
+    flex: 1;
+    min-width: 280px;
+    background-color: #f5f5f5;
+    color: #052231;
+    padding: 20px;
+    border-radius: 10px;
+    /*Border-left ou apenas borda ao redor?*/
+    /*border-left: 4px solid #052231;*/
+    border: solid 3px  #052231;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+/* Estilização interna do aside */
+aside h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #052231;
+    border-bottom: 2px solid #052231;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    padding-left: 0;
+}
+
+aside ul li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding: 8px;
+    background-color: #e0dfdf;
+    border-radius: 5px;
+}
+
+aside p {
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #e0dfdf;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 /*https://chatgpt.com/share/6a03196e-e220-83e9-9453-ca335bda555d*/
 
