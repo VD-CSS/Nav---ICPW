@@ -1,7 +1,3 @@
-<!--Eu queria deixar um pouquinho mais parecido com uma revista de verdade, por isso ele ficou um pouco maior. 
-Tenho a versão menor, que foi compartilhada no GPT. Então, se preferirem, posso mudar para aquela sem problemas.
-É só falar a qualquer momento.-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,17 +6,22 @@ Tenho a versão menor, que foi compartilhada no GPT. Então, se preferirem, poss
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cultura Pop & Entretenimento</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo-tc.png">
 </head>
 
 <body>
     <header>
-        <h1>Cultura Pop & Entretenimento</h1>
-        <h3>
-            Notícias, tendências e curiosidades sobre o universo dos filmes,
-            séries, músicas e eventos culturais.
-        </h3>
+        <section id="section-header">
+            <h1>Cultura Pop & Entretenimento</h1>
+            <h3>Revista TecCult</h3>
+            <p>
+                Notícias, tendências e curiosidades sobre o universo dos filmes,
+                séries, músicas e eventos culturais.
+            </p>
+        </section>
     </header>
 
+    <!-- Menu de navegação principal -->
     <nav>
         <ul type="none">
             <li id="inicio"><a href="index.html" style="color: black">Início</a></li>
@@ -30,84 +31,91 @@ Tenho a versão menor, que foi compartilhada no GPT. Então, se preferirem, poss
         </ul>
     </nav>
 
-    <main>
-        <article>
+    <h1 id="destaque">Cultura Pop & Entretenimento</h1>
 
-            <section>
-                <h2>Matéria 1</h2>
-                <h4>Os filmes mais aguardados do ano</h4>
+    <!-- Container principal -->
+    <div class="container">
+        <main>
+            <article>
 
-                <p>
-                    O cinema promete grandes estreias nos próximos meses, reunindo
-                    produções de ficção científica, ação, fantasia e super-heróis.
-                    Franquias famosas retornam às telonas com novos capítulos,
-                    enquanto diretores renomados apostam em histórias inovadoras
-                    para conquistar o público.
-                </p>
+                <!-- Primeira Matéria -->
+                <section class="post">
+                    <h3 style="border-bottom: solid 1px white;">Os filmes mais aguardados do ano</h3>
+                    <h4>Resumo</h4>
+                    <p>
+                        O cinema promete grandes estreias nos próximos meses, reunindo
+                        produções de ficção científica, ação, fantasia e super-heróis.
+                        Franquias famosas retornam às telonas com novos capítulos,
+                        enquanto diretores renomados apostam em histórias inovadoras
+                        para conquistar o público.
+                    </p>
 
-                <p>
-                    Além dos efeitos visuais impressionantes, muitos filmes estão
-                    chamando atenção pelas adaptações de livros, jogos e histórias
-                    em quadrinhos. Especialistas acreditam que este será um dos anos
-                    mais movimentados da indústria cinematográfica recente.
-                </p>
-            </section>
+                    <p>
+                        Além dos efeitos visuais impressionantes, muitos filmes estão
+                        chamando atenção pelas adaptações de livros, jogos e histórias
+                        em quadrinhos. Especialistas acreditam que este será um dos anos
+                        mais movimentados da indústria cinematográfica recente.
+                    </p>
+                </section>
 
-            <section>
-                <h2>Matéria 2</h2>
-                <h4>A ascensão da música independente</h4>
+                <!-- Segunda Matéria -->
+                <section class="post">
+                    <h3 style="border-bottom: solid 1px white;">A ascensão da música independente</h3>
+                    <h4>Resumo</h4>
+                    <p>
+                        A música independente vem crescendo cada vez mais graças às
+                        plataformas digitais e às redes sociais. Atualmente, artistas
+                        conseguem divulgar seus trabalhos para milhões de pessoas sem a
+                        necessidade de contratos com grandes gravadoras.
+                    </p>
 
-                <p>
-                    A música independente vem crescendo cada vez mais graças às
-                    plataformas digitais e às redes sociais. Atualmente, artistas
-                    conseguem divulgar seus trabalhos para milhões de pessoas sem a
-                    necessidade de contratos com grandes gravadoras.
-                </p>
+                    <p>
+                        Aplicativos de streaming, vídeos curtos e apresentações ao vivo
+                        pela internet ajudam novos músicos a conquistar fãs em diferentes
+                        partes do mundo. Esse cenário também contribui para a diversidade
+                        musical, trazendo novos estilos, ritmos e formas de expressão.
+                    </p>
+                </section>
 
-                <p>
-                    Aplicativos de streaming, vídeos curtos e apresentações ao vivo
-                    pela internet ajudam novos músicos a conquistar fãs em diferentes
-                    partes do mundo. Esse cenário também contribui para a diversidade
-                    musical, trazendo novos estilos, ritmos e formas de expressão.
-                </p>
-            </section>
+                <!-- Terceira Matéria -->
+                <section class="post">
+                    <h3 style="border-bottom: solid 1px white;">Eventos geeks movimentam multidões</h3>
+                    <h4>Resumo</h4>
+                    <p>
+                        Eventos voltados para a cultura geek atraem milhares de visitantes
+                        todos os anos. Feiras de games, concursos de cosplay, campeonatos
+                        de esportes e exposições de tecnologia se tornaram grandes atrações
+                        culturais e econômicas.
+                    </p>
 
-            <section>
-                <h2>Matéria 3</h2>
-                <h4>Eventos geeks movimentam multidões</h4>
+                    <p>
+                        Além do entretenimento, esses eventos oferecem espaços para
+                        interação entre fãs, criadores de conteúdo, desenvolvedores e
+                        empresas do setor tecnológico. O crescimento desse mercado mostra
+                        como a cultura pop se tornou parte importante do cotidiano de
+                        diferentes gerações.
+                    </p>
+                </section>
 
-                <p>
-                    Eventos voltados para a cultura geek atraem milhares de visitantes
-                    todos os anos. Feiras de games, concursos de cosplay, campeonatos
-                    de esportes e exposições de tecnologia se tornaram grandes atrações
-                    culturais e econômicas.
-                </p>
+            </article>
+        </main>
 
-                <p>
-                    Além do entretenimento, esses eventos oferecem espaços para
-                    interação entre fãs, criadores de conteúdo, desenvolvedores e
-                    empresas do setor tecnológico. O crescimento desse mercado mostra
-                    como a cultura pop se tornou parte importante do cotidiano de
-                    diferentes gerações.
-                </p>
-            </section>
+        <!-- Barra lateral -->
+        <aside>
+            <h2>Agenda Cultural</h2>
+            <h4>Próximos Eventos</h4>
 
-        </article>
-    </main>
+            <ul type="none">
+                <li>Festival Gamer Rio 2026</li>
+                <li>Expo Tecnologia Brasil</li>
+                <li>Semana da Cultura Digital</li>
+                <li>Mostra Nacional de Cinema Independente</li>
+                <li>Festival de Música Urbana</li>
+            </ul>
+        </aside>
+    </div>
 
-    <aside>
-        <h2>Agenda Cultural</h2>
-        <h4>Próximos Eventos</h4>
-
-        <ul type="none">
-            <li>Festival Gamer Rio 2026</li>
-            <li>Expo Tecnologia Brasil</li>
-            <li>Semana da Cultura Digital</li>
-            <li>Mostra Nacional de Cinema Independente</li>
-            <li>Festival de Música Urbana</li>
-        </ul>
-    </aside>
-
+    <!-- Rodapé -->
     <footer>
         <p id="textmin">
             Fique por dentro também através das nossas redes sociais: 
