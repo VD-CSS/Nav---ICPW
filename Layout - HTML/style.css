@@ -10,7 +10,7 @@ body {
 header {
     background-color: #052231;
     color: white;
-    padding-bottom: 5px;
+    height: 140px;
 }
 
 #section-header {
@@ -20,6 +20,10 @@ header {
 
 nav {
     background-color: #c4c2c2;
+    border-bottom: solid 3px #ffffff ;
+    border-top: solid 3px #ffffff;
+    height: 50px;
+    padding: 3px;
 }
 
 nav ul,
@@ -30,8 +34,8 @@ li a {
     text-decoration-line: none;
     display: flex;
     gap: 200px;
-    padding: 8px;
     justify-content: center;
+    
 
 }
 
@@ -49,6 +53,13 @@ footer {
 
 #textmin {
     font-size: 13px;
+}
+
+.textmin-divider {
+    width: 0.5px;
+    background-color: white;
+    align-self: stretch;
+    margin: 0 2px;
 }
 
 /*estrutura secundária*/
@@ -245,3 +256,27 @@ aside p {
 
 /*https://chatgpt.com/share/6a03196e-e220-83e9-9453-ca335bda555d*/
 
+#inicio:hover{
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+#tec:hover{
+    border-radius: 5px;
+    color: rgb(0, 76, 255);
+    cursor: pointer;
+
+}
+
+#ent:hover{
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#cult:hover{
+    border-radius: 5px;
+    color: rgb(255, 68, 0);
+    cursor: pointer;
+}
