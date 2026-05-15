@@ -20,23 +20,30 @@ header {
 
 nav {
     background-color: #c4c2c2;
-    border-bottom: solid 3px #ffffff ;
+    border-bottom: solid 3px #ffffff;
     border-top: solid 3px #ffffff;
-    height: 50px;
-    padding: 3px;
+    padding: 8px 3px;
+    height: auto;
+    box-sizing: border-box;
 }
 
-nav ul,
-li a {
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav li a {
     font-size: 17px;
     font-weight: bold;
-    list-style-type: none;
-    text-decoration-line: none;
-    display: flex;
-    gap: 200px;
-    justify-content: center;
-    
-
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 10px;
+    display: inline-flex;
 }
 
 
@@ -273,4 +280,87 @@ aside p {
     border-radius: 5px;
     color: rgb(255, 68, 0);
     cursor: pointer;
+}
+
+
+/* Título de seção dentro do card */
+.section-title {
+    font-size: 20px;
+    border-bottom: 2px solid #c4c2c2;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+/* Cards internos de cada entrevista */
+.entrevista-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+
+    margin-bottom: 18px;
+}
+
+.entrevista-card:last-child {
+    margin-bottom: 0;
+}
+
+/* Nome do entrevistado */
+.entrevistado {
+    font-size: 13.5px;
+    color: #c4c2c2;
+    margin-top: -6px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Subtítulo do aside */
+.aside-subtitle {
+    font-size: 15px;
+    color: #052231;
+    margin: 10px 0 6px;
+}
+
+/* Enquete: lista sem fundo cinza */
+.enquete-list li {
+    background-color: transparent;
+    padding: 4px 0;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.enquete-list input[type="radio"] {
+    accent-color: #052231;
+    margin-right: 6px;
+}
+
+/* Hovers do nav (novos itens: Opiniões e Contato) */
+#opi:hover {
+    border-radius: 5px;
+    color: rgb(130, 0, 200);
+    cursor: pointer;
+}
+
+#cont:hover {
+    border-radius: 5px;
+    color: rgb(0, 150, 80);
+    cursor: pointer;
+}
+
+.section-image{
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.aside-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.header-logo {
+    max-width: 125px;
+    height: auto;
+    display: block;
+    align-items: flex-start;
 }
