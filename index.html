@@ -7,16 +7,15 @@
     <title>Revista de Tecnologia e Cultura - TecCult</title>
     <link rel="stylesheet" href="Layout - HTML/style.css">
     <!-- Favicon da revista -->
-    <link rel="icon" type="image/png" href="/Layout - HTML/img/logo-tc.png">
+    <link rel="icon" type="image/png" href="Layout - HTML/img/logo-tc.png">
 </head>
 
 <body>
     <!-- Cabeçalho principal da página -->
     <header>
         <section id="section-header">
-            <h1>Conexão Urbana</h1>
-            <h3>Revista TecCult</h3>
-            <p>"Tecnologia, cultura e inovação conectando pessoas"</p>
+            <img src="Layout - HTML/img/logo-tc.png" alt="Logo da Revista TecCult" class="header-logo">
+            <h1>Revista TecCult - Conexão Urbana</h1>
         </section>
     </header>
 
@@ -24,9 +23,9 @@
     <nav>
         <ul type="none">
             <li><a href="../index.html" id="inicio">Início</a></li>
-            <li><a href="Layout - HTML/tecnologia.html" id="tec">Tecnologia</a></li>
-            <li><a href="Layout - HTML/entrevistas.html" id="ent">Entrevistas</a></li>
-            <li><a href="Layout - HTML/cultura.html" id="cult">Cultura</a></li>
+            <li><a href="tecnologia.html" id="tec">Tecnologia</a></li>
+            <li><a href="entrevistas.html" id="ent">Entrevistas</a></li>
+            <li><a href="cultura.html" id="cult">Cultura</a></li>
         </ul>
     </nav>
 
@@ -53,17 +52,24 @@
                 Profissões ligadas à tecnologia, análise de dados e desenvolvimento de sistemas inteligentes estão em crescimento. 
                 Ao mesmo tempo, áreas tradicionais vêm se adaptando às novas exigências do mercado digital.
                     </p>
-
-                    <h4>Destaques da Reportagem</h4>
-                    <ul>
-                        <li>Crescimento da automação empresarial</li>
-                        <li>Novas oportunidades na área de dados</li>
-                        <li>Expansão das ferramentas de IA generativa</li>
-                        <li>Necessidade de qualificação profissional</li>
-                    </ul>
+                    <div class="post-lists">
+                        <div class="post-list-col">
+                            <h4>Destaques da Reportagem</h4>
+                            <ul>
+                                <li>Crescimento da automação empresarial</li>
+                                <li>Novas oportunidades na área de dados</li>
+                                <li>Expansão das ferramentas de IA generativa</li>
+                                <li>Necessidade de qualificação profissional</li>
+                            </ul>
+                        </div>
+                        <div class="post-list-divider"></div>  
+                        <div class="post-list-col">
+                        <img src="https://www.ip.usp.br/site/wp-content/uploads/2023/02/ia.png" alt="Destaques Extras" class="section-image">
+                        <p>imagem mostra semelhança do raciocínio da máquina para o ser humano</p>
+                        </div>
+                    </div>
 
                     <h4>Opinião de Especialistas</h4>
-                    <!--Esse aside aqui pegou as alterações do CSS, aí seria bom mudar a tag para ficar harmonioso-->
                     <aside class="inside-article">
                         <p>“A inteligência artificial não elimina totalmente empregos, mas transforma funções e exige novas habilidades.”</p>
                     </aside>
@@ -86,6 +92,8 @@
                 Com equipes reduzidas e orçamentos menores, desenvolvedores independentes conseguem produzir títulos 
                 que alcançam milhões de jogadores ao redor do mundo.
                     </p>
+
+                    <img src="" alt="Destaques Extras" class="section-image">
 
                     <h4>Jogos Independentes em Alta</h4>
                     <ul>
@@ -213,6 +221,7 @@
         <!-- Barra lateral -->
         <aside>
             <h2>Notícias Rápidas</h2>
+            <img src="Layout - HTML/img/logo-tc.png" alt="Destaques Extras" class="aside-image">
             <ul type="none">
                 <li>Lançamento do novo smartphone Samsung</li>
                 <li>Entrevista exclusiva com o CEO da empresa Huawei</li>

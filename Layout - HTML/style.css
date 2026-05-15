@@ -15,6 +15,7 @@ header {
     padding: 0 40px;
     text-align: center;
     display: flex;
+    font-family: sans-serif;
 
 }
 
@@ -149,6 +150,12 @@ section {
     flex: 1;
     min-width: 200px;
     text-align: center;
+}
+
+.post-list-col img{
+    flex: 1;
+    min-width: 360px;
+    align-self: ;
 }
 
 .post-list-col ul {
@@ -313,8 +320,13 @@ aside p {
 .entrevista-card {
     background-color: rgba(255, 255, 255, 0.06);
     border-radius: 8px;
-
     margin-bottom: 18px;
+}
+
+.entrevista-card p, h4, h3 {
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .entrevista-card:last-child {
@@ -366,7 +378,7 @@ aside p {
 .section-image{
     width: 30%;
     height: auto;
-    border-radius: 8px;
+    padding-left: 10px;
 }
 
 .aside-image {
