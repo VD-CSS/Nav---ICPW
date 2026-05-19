@@ -25,7 +25,6 @@ header {
     font-size: 18px;
     justify-content: space-between;
     padding: 7px 40px;
-    text-align: center;
     gap: 40px;
     display: flex;
 }
@@ -81,9 +80,12 @@ footer {
 }
 
 
+
 /*estrutura secundária*/
 
-main {}
+main {
+    flex: 3;
+}
 
 /*div pequena*/
 section {
@@ -155,7 +157,6 @@ section {
 .post-list-col img{
     flex: 1;
     min-width: 360px;
-    align-self: ;
 }
 
 .post-list-col ul {
@@ -169,11 +170,6 @@ section {
     align-self: stretch;
     margin: 0 15px;
 }
-
-
-
-/*div maior*/
-article {}
 
 /* Citações e destaques dentro dos cards */
 .inside-aside {
@@ -224,13 +220,6 @@ article {}
     gap: 30px;
 }
 
-/*Alterações feitas pelo DeepSeek para configurar a side bar (precisa de revisão),
-aí precisa alterar depois o padding dos cards das matérias que você fez, para ter o espaçamento interno*/
-/* Main ocupa o espaço restante */
-main {
-    flex: 3;
-}
-
 /* Aside como sidebar lateral direita */
 aside {
     flex: 1;
@@ -278,9 +267,7 @@ aside p {
     border-radius: 5px;
 }
 
-
-/*https://chatgpt.com/share/6a03196e-e220-83e9-9453-ca335bda555d*/
-
+/*Cores dos links do menu*/
 #inicio:hover{
     border-radius: 5px;
     color: black;
